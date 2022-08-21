@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.line,
+.line1 {
+    width: 100%;
+    display: flex;
+}
+
+.line1 {
+    justify-content: center;
+}
+
+.left,
+.right {
+    margin: 10px;
+    min-width: 200px;
+    max-width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.left {
+    background-color: rgb(149, 149, 255);
+    float: left;
+}
+
+.right {
+    background-color: rgb(245, 166, 166);
+    float: right;
+    margin-left: auto;
+}
+
+.mid {
+    background-color: rgb(169, 251, 169);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px, 0, 5px, 0;
+}
+
+.mid-left {
+    background-color: rgb(255, 91, 91);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px, 0, 5px, 0;
+}
+
+.messages {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.bottom {
+    display: flex;
+    position: fixed;
+    bottom: 1;
+    width: 100%;
+}
+
+.text {
+    flex: 2;
+    padding: 20px;
+}
+
+.text input {
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+}
